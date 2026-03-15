@@ -1,0 +1,207 @@
+.admin-page-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    flex-direction: row; 
+    overflow: hidden;
+
+    background-image: linear-gradient(112.5deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(157.5deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(135deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(90deg, rgba(36,63,25, 0.1),rgba(27,10,147, 0.27)); 
+    
+}
+
+.sidebar {
+    /* position: absolute; */
+    overflow: hidden;
+    justify-content: flex-start;
+    background:rgba(255, 255, 255, 0.3);
+    /* backdrop-filter: blur(20px); */
+    animation: slide-in-sidebar 0.5s ease-out forwards;
+    height: 100%;
+    width: 20%;
+    padding: 10px;
+
+}
+
+
+
+.admin-dashboard{
+    padding: 4px;
+    font-size: 30px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.admin-dashboard p{
+    color: #2c3e50;
+}
+
+
+
+@keyframes slide-in-sidebar{
+    from{
+        transform: translateX(-1000px);
+    }to{
+        transform: translateX(0%);
+    }
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.admin-greetings {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1000px;
+    padding: 1rem;
+    background: #ffffff4d;
+    animation: fadeIn 0.5s ease-out;
+    border-radius: 20px;
+    padding-left: 30px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.admin-greetings h1 {
+    color: #2c3e50;
+    font-size: 2rem;
+}
+
+.admin-options {
+    /* border: 2px solid red; */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 15px;
+ 
+}
+
+.admin-create-product {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    /* background: rgba(255, 255, 255, 0.3); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-create-product button{
+    background-color: transparent;
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
+}
+
+.admin-create-product button:hover{
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.admin-update-product {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-update-product button{
+    background-color: transparent;
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
+}
+
+.admin-update-product button:hover{
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.admin-delete-product {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    /* border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-delete-product button{
+    background-color: transparent;
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
+}
+
+.admin-delete-product button:hover{
+    background-color: #2c3e50;
+    color: #ffffff;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2000;
+    
+} 
+
+.products-grid-admin{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 50px 25px;
+    padding: 24px;
+    width: 100%;
+}
+
+.admin-page-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.create-product-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.create-product-btn-txt{
+    max-width: 0;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.create-product-btn:hover .create-product-btn-txt{
+    max-width: 200px;
+    opacity: 1;
+}

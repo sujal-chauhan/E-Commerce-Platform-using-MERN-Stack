@@ -1,0 +1,49 @@
+.checkout-page {
+    min-height: 100vh;
+    font-family:sans-serif;
+    width: 100vw;
+
+    background-attachment: fixed;
+    
+    background-image: linear-gradient(112.5deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(157.5deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(135deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(90deg, rgba(36,63,25, 0.1),rgba(27,10,147, 0.27)); 
+    background-blend-mode:overlay,overlay,overlay,normal;
+}
+
+.checkout-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.checkout-placeholder {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.checkout-placeholder p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.checkout-placeholder button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.checkout-placeholder button:hover {
+    background-color: #0056b3;
+}
+
+.retry-btn{
+    background-color: #666;
+    color: white;
+}

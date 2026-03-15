@@ -1,0 +1,168 @@
+.main-container-profile{
+  background-image: linear-gradient(112.5deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(157.5deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(135deg, rgba(0,57,129, 0.18) 0%, rgba(0,57,129, 0.18) 10%,rgba(36,63,25, 0.1) 10%, rgba(36,63,25, 0.1) 53%,rgba(81,3,3, 0.08) 53%, rgba(81,3,3, 0.08) 55%,rgba(72,6,104, 0.07) 55%, rgba(72,6,104, 0.07) 60%,rgba(180,175,44, 0.1) 60%, rgba(180,175,44, 0.1) 88%,rgba(114,88,88, 0.09) 88%, rgba(114,88,88, 0.09) 91%,rgba(83,76,4, 0.06) 91%, rgba(83,76,4, 0.06) 100%),linear-gradient(90deg, rgba(36,63,25, 0.1),rgba(27,10,147, 0.27));
+  /* background-color: red; */
+
+  background-attachment: fixed;
+  height: 93vh;
+  width: 100vw;
+} 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+}
+
+
+.form-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDDCD9;
+    height: auto;
+    width: auto;
+    border: 2px solid #264143;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    /* height: 100%; */
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EDDCD9;
+  height: auto;
+  width: auto;
+  border: 2px solid #264143;
+  border-radius: 20px;
+  box-shadow: 3px 4px 0px 1px #E99F4C;
+  transition:transform 0.3s ease ;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.profile-container:hover{
+  transform: scale(1.02);
+}
+
+.title-p {
+  color: #264143;
+  font-weight: 900;
+  font-size: 32px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  gap:15px;
+  margin-left: 25px;
+  margin-right: 5px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+
+.title-p .user-name{
+  color: #666;
+  font-size: 20px;
+  transform: translateY(5px);
+}
+
+.email-group{
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: 10px;
+}
+
+.email-group h4{
+  color: #666;
+}
+.email-group h3{
+  font-weight: 900;
+  color: #264143;
+}
+
+
+h5 {
+  margin-top: 1.5rem;
+  color: #666;
+  font-weight: 400;
+}
+
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* pushable */
+.edit-btn {
+  /* background-color: #9ca1ff; */
+  color: white;
+
+  background: hsl(340deg 100% 32%);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+
+/* front\ */
+.edit-btn-front{
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-6px);
+  transition: transform 0.1s ease-out;
+}
+
+.edit-btn-front:hover {
+  transform: translateY(-8px);
+}
+
+.edit-btn-front:active{
+  transform: translateY(-6px);
+}
+
+.logout-btn {
+  color: white;
+  background: hsl(340deg 100% 32%);
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  margin-bottom: 10px;
+}
+.logout-btn-front{
+  display: block;
+  padding: 12px 63px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background-color: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-6px);
+  transition: transform 0.1s ease-out;
+}
+
+.logout-btn-front:hover {
+  transform: translateY(-8px);
+}
+.logout-btn-front:active {
+  transform: translateY(-6px);
+}

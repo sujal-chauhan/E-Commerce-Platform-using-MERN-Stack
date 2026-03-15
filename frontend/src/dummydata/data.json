@@ -1,0 +1,85 @@
+[
+  {
+    "id": "prod_01",
+    "name": "Lunar Peak Heritage Backpack",
+    "description": "A durable, water-resistant 25L backpack featuring a padded laptop sleeve and ergonomic shoulder straps for daily commutes.",
+    "price": 79.99,
+    "rating": { "rate": 4.7, "count": 128 },
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=600"
+
+  },
+
+  {
+    "id": "prod_02",
+    "name": "Sonic-X Noise Cancelling Headphones",
+    "description": "Premium over-ear wireless headphones with 40-hour battery life and advanced active noise cancellation technology.",
+    "price": 249.00,
+    "rating": { "rate": 4.9, "count": 215 },
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=600"
+
+  },
+  {
+    "id": "prod_03",
+    "name": "Terra Firma Trail Runner",
+    "description": "High-performance trail running shoes with a deep-lugged outsole for maximum grip on slippery or uneven terrain.",
+    "price": 125.50,
+    "rating": { "rate": 4.5, "count": 89 },
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600"
+  },
+  {
+    "id": "prod_04",
+    "name": "Midnight Minimalist Watch",
+    "description": "A sleek, matte black analog watch with a genuine leather strap and scratch-resistant sapphire crystal.",
+    "price": 150.00,
+    "rating": { "rate": 4.3, "count": 56 },
+    "image": "https://images.unsplash.com/photo-1524592091214-b4469b898428?q=80&w=600"
+  },
+  {
+    "id": "prod_05",
+    "name": "Aura Smart Home Speaker",
+    "description": "Voice-activated smart speaker with crystal clear highs and deep bass. Integrates with all major smart home ecosystems.",
+    "price": 89.00,
+    "rating": { "rate": 4.6, "count": 340 },
+    "image": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?q=80&w=600"
+  },
+  {
+    "id": "prod_06",
+    "name": "Veloce Carbon Fiber Bicycle",
+    "description": "An ultra-lightweight road bike designed for speed and endurance, featuring a 22-speed drivetrain and hydraulic disc brakes.",
+    "price": 1850.00,
+    "rating": { "rate": 5.0, "count": 12 },
+    "image": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=600"
+  },
+  {
+    "id": "prod_07",
+    "name": "BrewMaster Precision Kettle",
+    "description": "Gooseneck electric kettle with temperature control to the degree, perfect for pour-over coffee enthusiasts.",
+    "price": 115.00,
+    "rating": { "rate": 4.8, "count": 182 },
+    "image": "https://images.unsplash.com/photo-1574634534894-89d7576c8259?q=80&w=600"
+  },
+  {
+    "id": "prod_08",
+    "name": "EcoSoft Organic Cotton Hoodie",
+    "description": "Sustainably sourced, heavyweight organic cotton hoodie with a relaxed fit and brushed fleece interior.",
+    "price": 65.00,
+    "rating": { "rate": 4.4, "count": 94 },
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=600"
+  },
+  {
+    "id": "prod_09",
+    "name": "Zenith 4K Action Camera",
+    "description": "Capture your adventures in stunning 4K at 60fps. Waterproof up to 30m with the included housing.",
+    "price": 199.99,
+    "rating": { "rate": 4.2, "count": 67 },
+    "image": "https://images.unsplash.com/photo-1526170315873-3a9161729a42?q=80&w=600"
+  },
+  {
+    "id": "prod_10",
+    "name": "Nova Glint Desk Lamp",
+    "description": "Adjustable LED desk lamp with touch controls, wireless phone charging base, and three color temperature modes.",
+    "price": 45.00,
+    "rating": { "rate": 4.1, "count": 43 },
+    "image": "https://images.unsplash.com/photo-1534073828943-f801091bb18c?q=80&w=600"
+  }
+]
